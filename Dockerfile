@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 运行入口
-CMD ["python", "main.py"]
+CMD ["python", "-u", "main.py"]
