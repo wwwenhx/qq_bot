@@ -16,8 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 复制项目代码
 COPY . .
 
-# 暴露端口（如果服务有 HTTP 或 WebSocket）
-EXPOSE 3001 3000 6099
-
 # 运行入口
 CMD ["python", "main.py"]
