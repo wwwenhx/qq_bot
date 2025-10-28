@@ -14,8 +14,6 @@ docker-run: docker-stop
 	docker run -d \
 		--name $(CONTAINER_NAME) \
 		--env-file .env \
-		-p 3000:3000 \
-		-p 3001:3001 \
-		-p 6099:6099 \
+		--network napcat-net \
 		$(IMAGE_NAME)
 
