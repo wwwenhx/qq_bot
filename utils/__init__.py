@@ -1,0 +1,1 @@
+from str import normalize_newlines

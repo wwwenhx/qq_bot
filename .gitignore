@@ -15,4 +15,4 @@ __pycache__/
 app/.config/
 
 .env
-*.env
+*.en

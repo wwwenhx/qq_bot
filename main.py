@@ -4,7 +4,7 @@ import os
 import json
 from dotenv import load_dotenv
 from models import ResponseModel, RequestModel
-from service import process_msg
+from service import process_msg,langchain_reply
 # 载入 .env 文件
 load_dotenv()
 
