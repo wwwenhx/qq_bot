@@ -1,1 +1,1 @@
-from str import normalize_newlines
+from .str_utils import normalize_newlines
